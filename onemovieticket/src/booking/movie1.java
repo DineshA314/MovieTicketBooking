@@ -31,9 +31,10 @@ public class movie1 {
 			System.out.println("Data saved..");
 			break;
 		case 2:
+			System.out.println("Enter the movie name : ");
 			boolean flag = true;
 			in.nextInt();
-			System.out.println("Enter the movie name : ");
+			
 			String name= in.nextLine();
 			for(int i=0; i<movlist.length;i++)
 			{
